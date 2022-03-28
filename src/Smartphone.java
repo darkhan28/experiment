@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public class Smartphone {
+public class Smartphone implements Phone{
 
     private String name;
     private int price;
@@ -8,6 +8,9 @@ public class Smartphone {
     private int memorySize;
     private Color color;
     private double diagonalScreenSize;
+
+	public void turnOn() {
+	}
 
     public Smartphone() {
     }
